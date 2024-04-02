@@ -1,0 +1,186 @@
+[
+    {
+        "name": "George Washington",
+        "termSpan": "1789–1797"
+    },
+    {
+        "name": "John Adams",
+        "termSpan": "1797–1801"
+    },
+    {
+        "name": "Thomas Jefferson",
+        "termSpan": "1801–1809"
+    },
+    {
+        "name": "James Madison",
+        "termSpan": "1809–1817"
+    },
+    {
+        "name": "James Monroe",
+        "termSpan": "1817–1825"
+    },
+    {
+        "name": "John Quincy Adams",
+        "termSpan": "1825–1829"
+    },
+    {
+        "name": "Andrew Jackson",
+        "termSpan": "1829–1837"
+    },
+    {
+        "name": "Martin Van Buren",
+        "termSpan": "1837–1841"
+    },
+    {
+        "name": "William Henry Harrison",
+        "termSpan": "1841"
+    },
+    {
+        "name": "John Tyler",
+        "termSpan": "1841–1845"
+    },
+    {
+        "name": "James K. Polk",
+        "termSpan": "1845–1849"
+    },
+    {
+        "name": "Zachary Taylor",
+        "termSpan": "1849–1850"
+    },
+    {
+        "name": "Millard Fillmore",
+        "termSpan": "1850–1853"
+    },
+    {
+        "name": "Franklin Pierce",
+        "termSpan": "1853–1857"
+    },
+    {
+        "name": "James Buchanan",
+        "termSpan": "1857–1861"
+    },
+    {
+        "name": "Abraham Lincoln",
+        "termSpan": "1861–1865"
+    },
+    {
+        "name": "Andrew Johnson",
+        "termSpan": "1865–1869"
+    },
+    {
+        "name": "Ulysses S. Grant",
+        "termSpan": "1869–1877"
+    },
+    {
+        "name": "Rutherford B. Hayes",
+        "termSpan": "1877–1881"
+    },
+    {
+        "name": "James A. Garfield",
+        "termSpan": "1881"
+    },
+    {
+        "name": "Chester A. Arthur",
+        "termSpan": "1881–1885"
+    },
+    {
+        "name": "Grover Cleveland",
+        "termSpan": "1885–1889"
+    },
+    {
+        "name": "Benjamin Harrison",
+        "termSpan": "1889–1893"
+    },
+    {
+        "name": "Grover Cleveland",
+        "termSpan": "1893–1897"
+    },
+    {
+        "name": "William McKinley",
+        "termSpan": "1897–1901"
+    },
+    {
+        "name": "Theodore Roosevelt",
+        "termSpan": "1901–1909"
+    },
+    {
+        "name": "William Howard Taft",
+        "termSpan": "1909–1913"
+    },
+    {
+        "name": "Woodrow Wilson",
+        "termSpan": "1913–1921"
+    },
+    {
+        "name": "Warren G. Harding",
+        "termSpan": "1921–1923"
+    },
+    {
+        "name": "Calvin Coolidge",
+        "termSpan": "1923–1929"
+    },
+    {
+        "name": "Herbert Hoover",
+        "termSpan": "1929–1933"
+    },
+    {
+        "name": "Franklin D. Roosevelt",
+        "termSpan": "1933–1945"
+    },
+    {
+        "name": "Harry S. Truman",
+        "termSpan": "1945–1953"
+    },
+    {
+        "name": "Dwight D. Eisenhower",
+        "termSpan": "1953–1961"
+    },
+    {
+        "name": "John F. Kennedy",
+        "termSpan": "1961–1963"
+    },
+    {
+        "name": "Lyndon B. Johnson",
+        "termSpan": "1963–1969"
+    },
+    {
+        "name": "Richard Nixon",
+        "termSpan": "1969–1974"
+    },
+    {
+        "name": "Gerald Ford",
+        "termSpan": "1974–1977"
+    },
+    {
+        "name": "Jimmy Carter",
+        "termSpan": "1977–1981"
+    },
+    {
+        "name": "Ronald Reagan",
+        "termSpan": "1981–1989"
+    },
+    {
+        "name": "George H. W. Bush",
+        "termSpan": "1989–1993"
+    },
+    {
+        "name": "Bill Clinton",
+        "termSpan": "1993–2001"
+    },
+    {
+        "name": "George W. Bush",
+        "termSpan": "2001–2009"
+    },
+    {
+        "name": "Barack Obama",
+        "termSpan": "2009–2017"
+    },
+    {
+        "name": "Donald Trump",
+        "termSpan": "2017–2021"
+    },
+    {
+        "name": "Joe Biden",
+        "termSpan": "2021–present"
+    }
+]

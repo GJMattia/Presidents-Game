@@ -1,0 +1,30 @@
+.Game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+}
+
+.Presidents {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2rem;
+    color: white;
+}
+
+.PresidentDiv {
+    align-self: center;
+    justify-self: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.PresidentDiv:hover {
+    filter: invert();
+}
