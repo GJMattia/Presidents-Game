@@ -9,7 +9,6 @@ export default function MainMenu({ setGame }: MainMenuProps) {
         <div className='MainMenu'>
             <h1>President Guessing Game</h1>
             <button onClick={() => setGame(true)}>Play</button>
-            <button>Info</button>
         </div>
     );
 }

@@ -5,11 +5,11 @@ import { useState } from 'react';
 
 export default function App() {
 
-  const [game, setGame] = useState<boolean>(true);
+  const [game, setGame] = useState<boolean>(false);
 
   return (
     <div className='App'>
-      {/* {!game && <MainMenu setGame={setGame} />} */}
+      {!game && <MainMenu setGame={setGame} />}
       {game && <Game setGame={setGame} />}
     </div>
   )
