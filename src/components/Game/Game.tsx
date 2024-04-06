@@ -12,26 +12,33 @@ export default function Game() {
     const [current, setCurrent] = useState<number>(Math.floor(Math.random() * 46));
 
     return (
-        <div className='Game'>
-            <div className='Spotlight'>
-                <h1>{PresidentData[current].name}</h1>
-                <h1>{current + 1}</h1>
-            </div>
-            <div className='Presidents'>
-                {PresidentData.map((_, index) => (
-                    <President
-                        key={index}
-                        index={index}
-                        name={PresidentData[index].name}
-                        current={current}
-                        setCurrent={setCurrent}
-                        presidentsLeft={presidentsLeft}
-                        setPresidentsLeft={setPresidentsLeft}
-                    />
-                ))}
+        <div className='GameBox'>
+            <div className='Game'>
+                <div className='Spotlight'>
+                    <img className='Portrait' src={PresidentData[current].img} />
+                    <div className='PresidentInfo'>
+                        <h1 className='PresidentTitle'>{PresidentData[current].name}</h1>
+                        <h1>Term: {PresidentData[current].termSpan}</h1>
+                    </div>
+                    {/* <h1>{current + 1}</h1> */}
+                </div>
+                <div className='Presidents'>
+                    {PresidentData.map((_, index) => (
+                        <President
+                            key={index}
+                            index={index}
+                            name={PresidentData[index].name}
+                            img={PresidentData[index].img}
+                            current={current}
+                            setCurrent={setCurrent}
+                            presidentsLeft={presidentsLeft}
+                            setPresidentsLeft={setPresidentsLeft}
+                        />
+                    ))}
 
+                </div>
+                <Link className='ReturnBtn' to='/'>Home</Link>
             </div>
-            <button><Link to='/'>Home</Link></button>
         </div>
     )
 }

@@ -4,13 +4,14 @@ import { useState } from 'react';
 interface Props {
     index: number;
     name: string;
+    img: string;
     current: number;
     setCurrent: (value: number) => void;
     presidentsLeft: number[];
     setPresidentsLeft: (value: number[]) => void;
 }
 
-export default function President({ index, name, current, setCurrent, presidentsLeft, setPresidentsLeft }: Props) {
+export default function President({ index, name, img, current, setCurrent, presidentsLeft, setPresidentsLeft }: Props) {
 
     const [flip, setflip] = useState<boolean>(false);
 
@@ -51,7 +52,10 @@ export default function President({ index, name, current, setCurrent, presidents
     return (
         <div className={`President ${flip ? 'Flip' : ''}`} onClick={(event) => checkPresident(event, index)}>
             <div className="Front">{index + 1}</div>
-            <div className="Back">{name}</div>
+            <div className="Back">
+                <p className='PresidentName'>{name}</p>
+                <img src={img} />
+            </div>
         </div>
     );
 };

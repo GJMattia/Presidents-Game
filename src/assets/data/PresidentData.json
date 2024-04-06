@@ -1,186 +1,278 @@
 [
     {
         "name": "George Washington",
-        "termSpan": "1789–1797"
+        "termSpan": "1789–1797",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/01_george_washington.jpg",
+        "fact": "George Washington had wooden teeth, although they weren't actually made of wood. They were made of materials such as ivory, gold, and lead."
     },
     {
         "name": "John Adams",
-        "termSpan": "1797–1801"
+        "termSpan": "1797–1801",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/02_john_adams.jpg",
+        "fact": "John Adams was the first president to live in the White House, although it wasn't fully completed during his tenure."
     },
     {
         "name": "Thomas Jefferson",
-        "termSpan": "1801–1809"
+        "termSpan": "1801–1809",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/03_thomas_jefferson.jpg",
+        "fact": "Thomas Jefferson was an avid inventor and is credited with inventing many things, including the swivel chair and the pedometer."
     },
     {
         "name": "James Madison",
-        "termSpan": "1809–1817"
+        "termSpan": "1809–1817",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/04_james_madison.jpg",
+        "fact": "James Madison was the shortest U.S. president, standing at only 5 feet 4 inches tall."
     },
     {
         "name": "James Monroe",
-        "termSpan": "1817–1825"
+        "termSpan": "1817–1825",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/05_james_monroe.jpg",
+        "fact": "James Monroe's presidency was known as the \"Era of Good Feelings\" due to a period of national unity and prosperity."
     },
     {
         "name": "John Quincy Adams",
-        "termSpan": "1825–1829"
+        "termSpan": "1825–1829",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/06_john_quincy_adams.jpg",
+        "fact": "John Quincy Adams enjoyed skinny-dipping in the Potomac River every morning, even during the winter."
     },
     {
         "name": "Andrew Jackson",
-        "termSpan": "1829–1837"
+        "termSpan": "1829–1837",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/07_andrew_jackson.jpg?w=1250",
+        "fact": "Andrew Jackson had a pet parrot named Poll that he taught to curse like a sailor."
     },
     {
         "name": "Martin Van Buren",
-        "termSpan": "1837–1841"
+        "termSpan": "1837–1841",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/08_martin_van_buren.jpg",
+        "fact": "Martin Van Buren was the first president born as a United States citizen, as all previous presidents were born before the country's independence."
     },
     {
         "name": "William Henry Harrison",
-        "termSpan": "1841"
+        "termSpan": "1841",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/09_william_henry_harrison.jpg",
+        "fact": "William Henry Harrison gave the longest inauguration speech in history, which lasted nearly two hours, on a cold, rainy day. He caught pneumonia and died a month later."
     },
     {
         "name": "John Tyler",
-        "termSpan": "1841–1845"
+        "termSpan": "1841–1845",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/10_john_tyler.jpg",
+        "fact": "John Tyler was the first vice president to succeed to the presidency due to the death of a president. He was also the first president to get married while in office."
     },
     {
         "name": "James K. Polk",
-        "termSpan": "1845–1849"
+        "termSpan": "1845–1849",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/11_james_k_polk.jpg",
+        "fact": "James K. Polk was the first president to have his photograph taken while in office."
     },
     {
         "name": "Zachary Taylor",
-        "termSpan": "1849–1850"
+        "termSpan": "1849–1850",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/12_zachary_taylor.jpg",
+        "fact": "Zachary Taylor died just 16 months into his presidency, making his tenure the second shortest in U.S. history."
     },
     {
         "name": "Millard Fillmore",
-        "termSpan": "1850–1853"
+        "termSpan": "1850–1853",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/13_millard_filmore.jpg",
+        "fact": "Millard Fillmore installed the first bathtub in the White House, although this claim is widely disputed."
     },
     {
         "name": "Franklin Pierce",
-        "termSpan": "1853–1857"
+        "termSpan": "1853–1857",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/14_franklin_pierce.jpg",
+        "fact": "Franklin Pierce was arrested for running over an old woman with his horse. The charges were later dropped due to lack of evidence."
     },
     {
         "name": "James Buchanan",
-        "termSpan": "1857–1861"
+        "termSpan": "1857–1861",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/15_james_buchanan.jpg",
+        "fact": "James Buchanan is the only president who never married. His niece, Harriet Lane, served as the official White House hostess during his presidency."
     },
     {
         "name": "Abraham Lincoln",
-        "termSpan": "1861–1865"
+        "termSpan": "1861–1865",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/16_abraham_lincoln.jpg",
+        "fact": "Abraham Lincoln is the only president to have obtained a patent for an invention. He patented a device to lift boats over shoals and obstructions in a river."
     },
     {
         "name": "Andrew Johnson",
-        "termSpan": "1865–1869"
+        "termSpan": "1865–1869",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/17_andrew_johnson.jpg",
+        "fact": "Andrew Johnson was the first president to be impeached by the House of Representatives, although he was acquitted by the Senate by just one vote."
     },
     {
         "name": "Ulysses S. Grant",
-        "termSpan": "1869–1877"
+        "termSpan": "1869–1877",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/18_ulysses_s_grant.jpg",
+        "fact": "Ulysses S. Grant was given a ticket for riding his horse too fast in Washington, D.C., which he promptly paid."
     },
     {
         "name": "Rutherford B. Hayes",
-        "termSpan": "1877–1881"
+        "termSpan": "1877–1881",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/19_rutherford_b_hayes.jpg",
+        "fact": "Rutherford B. Hayes was the first president to use a telephone in the White House."
     },
     {
         "name": "James A. Garfield",
-        "termSpan": "1881"
+        "termSpan": "1881",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/20_james_garfield.jpg",
+        "fact": "James A. Garfield could write Latin with one hand and Greek with the other, simultaneously."
     },
     {
         "name": "Chester A. Arthur",
-        "termSpan": "1881–1885"
+        "termSpan": "1881–1885",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/21_chester_a_arthur.jpg",
+        "fact": "Chester A. Arthur owned 80 pairs of pants, each of which was custom-made and had his initials sewn into the waistband."
     },
     {
-        "name": "Grover Cleveland",
-        "termSpan": "1885–1889"
+        "name": "Grover Cleveland (Term 1)",
+        "termSpan": "1885–1889",
+        "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-640456345.jpg?crop=1xw:1.0xh;center,top&resize=640:*",
+        "fact": "Grover Cleveland is the only president to serve two non-consecutive terms, making him both the 22nd and 24th president."
     },
     {
         "name": "Benjamin Harrison",
-        "termSpan": "1889–1893"
+        "termSpan": "1889–1893",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/23_benjamin_harrison.jpg?w=1250",
+        "fact": "Benjamin Harrison was the first president to have electricity in the White House, although he was afraid to touch the light switches himself."
     },
     {
-        "name": "Grover Cleveland",
-        "termSpan": "1893–1897"
+        "name": "Grover Cleveland (Term 2)",
+        "termSpan": "1893–1897",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/22_grover_cleveland.jpg",
+        "fact": "Grover Cleveland underwent secret surgery to remove a tumor from his mouth, which was performed aboard a yacht in the East River."
     },
     {
         "name": "William McKinley",
-        "termSpan": "1897–1901"
+        "termSpan": "1897–1901",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/25_william_mckinley.jpg",
+        "fact": "William McKinley was the first president to ride in an automobile while in office."
     },
     {
         "name": "Theodore Roosevelt",
-        "termSpan": "1901–1909"
+        "termSpan": "1901–1909",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/26_theodore_roosevelt.jpg",
+        "fact": "Theodore Roosevelt was shot in the chest during a campaign speech, but the bullet was slowed by his thick speech manuscript and his eyeglasses case, saving his life."
     },
     {
         "name": "William Howard Taft",
-        "termSpan": "1909–1913"
+        "termSpan": "1909–1913",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/27_william_howard_taft.jpg",
+        "fact": "William Howard Taft was the heaviest president, weighing over 300 pounds. He once got stuck in the White House bathtub."
     },
     {
         "name": "Woodrow Wilson",
-        "termSpan": "1913–1921"
+        "termSpan": "1913–1921",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/28_woodrow_wilson.jpg",
+        "fact": "Woodrow Wilson was the first president to hold a Ph.D. degree. He earned his doctorate in political science from Johns Hopkins University."
     },
     {
         "name": "Warren G. Harding",
-        "termSpan": "1921–1923"
+        "termSpan": "1921–1923",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/29_warren_g_harding.jpg?w=1250",
+        "fact": "Warren G. Harding had a pet dog named Laddie Boy, who was often seen attending cabinet meetings and had his own chair."
     },
     {
         "name": "Calvin Coolidge",
-        "termSpan": "1923–1929"
+        "termSpan": "1923–1929",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/30_calvin_coolidge.jpg",
+        "fact": "Calvin Coolidge enjoyed having his head rubbed with petroleum jelly while he ate breakfast in bed."
     },
     {
         "name": "Herbert Hoover",
-        "termSpan": "1929–1933"
+        "termSpan": "1929–1933",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/31_herbert_hoover.jpg",
+        "fact": "Herbert Hoover and his wife spoke fluent Chinese and would converse in Mandarin to prevent others from eavesdropping."
     },
     {
         "name": "Franklin D. Roosevelt",
-        "termSpan": "1933–1945"
+        "termSpan": "1933–1945",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/32_franklin_d_roosevelt.jpg",
+        "fact": "Franklin D. Roosevelt was related to 11 other U.S. presidents, including his distant cousin Theodore Roosevelt."
     },
     {
         "name": "Harry S. Truman",
-        "termSpan": "1945–1953"
+        "termSpan": "1945–1953",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/33_harry_s_truman.jpg",
+        "fact": "Harry S. Truman's middle initial \"S\" doesn't actually stand for anything; it was chosen to honor both of his grandfathers, Anderson Shipp Truman and Solomon Young."
     },
     {
         "name": "Dwight D. Eisenhower",
-        "termSpan": "1953–1961"
+        "termSpan": "1953–1961",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/34_dwight_d_eisenhower.jpg",
+        "fact": "Dwight D. Eisenhower loved playing golf and installed a putting green at the White House."
     },
     {
         "name": "John F. Kennedy",
-        "termSpan": "1961–1963"
+        "termSpan": "1961–1963",
+        "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-97347150.jpg",
+        "fact": "John F. Kennedy won a Pulitzer Prize for his book \"Profiles in Courage,\" which he wrote while recuperating from back surgery."
     },
     {
         "name": "Lyndon B. Johnson",
-        "termSpan": "1963–1969"
+        "termSpan": "1963–1969",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/36_lyndon_johnson.jpg",
+        "fact": "Lyndon B. Johnson had a pet beagle named Him. He once lifted Him by the ears for photographers, causing public outrage."
     },
     {
         "name": "Richard Nixon",
-        "termSpan": "1969–1974"
+        "termSpan": "1969–1974",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/37_richard_nixon.jpg?w=1250",
+        "fact": "Richard Nixon was a proficient pianist and even played for former Soviet Premier Nikita Khrushchev during a visit to the Soviet Union."
     },
     {
         "name": "Gerald Ford",
-        "termSpan": "1974–1977"
+        "termSpan": "1974–1977",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/38_gerald_ford.jpg",
+        "fact": "Gerald Ford worked as a fashion model during his college years and appeared on the cover of Cosmopolitan magazine in 1942."
     },
     {
         "name": "Jimmy Carter",
-        "termSpan": "1977–1981"
+        "termSpan": "1977–1981",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/39_jimmy_carter.jpg",
+        "fact": "Jimmy Carter was the first U.S. president to be born in a hospital."
     },
     {
         "name": "Ronald Reagan",
-        "termSpan": "1981–1989"
+        "termSpan": "1981–1989",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/40_ronald_reagan.jpg",
+        "fact": "Ronald Reagan survived an assassination attempt in 1981 when he was shot by John Hinckley Jr. He recovered fully and even joked with the surgeons."
     },
     {
         "name": "George H. W. Bush",
-        "termSpan": "1989–1993"
+        "termSpan": "1989–1993",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/41_george_hw_bush.jpg",
+        "fact": "George H. W. Bush celebrated his 75th, 80th, 85th, and 90th birthdays by skydiving."
     },
     {
         "name": "Bill Clinton",
-        "termSpan": "1993–2001"
+        "termSpan": "1993–2001",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/42_bill_clinton.jpg",
+        "fact": "Bill Clinton was once a saxophone-playing band member in high school. He even considered pursuing a career in music before choosing politics."
     },
     {
         "name": "George W. Bush",
-        "termSpan": "2001–2009"
+        "termSpan": "2001–2009",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/43_george_w_bush.jpg",
+        "fact": "George W. Bush is the only U.S. president to have completed a marathon. He ran the Houston Marathon in 1993 with a time of 3 hours and 44 minutes."
     },
     {
         "name": "Barack Obama",
-        "termSpan": "2009–2017"
+        "termSpan": "2009–2017",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/44_barack_obama.jpg",
+        "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comics. He even read Spider-Man comics during his younger days."
     },
     {
         "name": "Donald Trump",
-        "termSpan": "2017–2021"
+        "termSpan": "2017–2021",
+        "img": "https://www.whitehouse.gov/wp-content/uploads/2021/01/45_donald_trump.jpg",
+        "fact": "Donald Trump has appeared in several movies and TV shows, including cameos in Home Alone 2: Lost in New York and The Fresh Prince of Bel-Air."
     },
     {
         "name": "Joe Biden",
-        "termSpan": "2021–present"
+        "termSpan": "2021–present",
+        "img": "https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl90ftvqz1335916vmqygd341fwr/public",
+        "fact": "Joe Biden overcame a stutter as a child and has become a strong advocate for people with disabilities."
     }
 ]
