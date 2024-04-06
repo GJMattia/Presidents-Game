@@ -1,8 +1,35 @@
 .MainMenu {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    background-image: url('../../assets/images/test.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.play-button {
+    width: 50%;
+    height: 20%;
+    background-color: rgb(92, 241, 92);
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.play-button:hover {
+    transform: scale(1.1);
 }

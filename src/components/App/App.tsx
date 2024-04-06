@@ -1,16 +1,17 @@
 import './App.css';
 import MainMenu from '../MainMenu/MainMenu';
 import Game from '../Game/Game';
-import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 
 export default function App() {
 
-  const [game, setGame] = useState<boolean>(false);
-
   return (
     <div className='App'>
-      {!game && <MainMenu setGame={setGame} />}
-      {game && <Game setGame={setGame} />}
+      <Routes>
+        <Route path='/' element={<MainMenu />} />
+        <Route path='/play' element={<Game />} />
+      </Routes>
     </div>
   )
 };

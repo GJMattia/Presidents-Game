@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 20px solid green;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -14,37 +13,4 @@
     grid-template-columns: repeat(10, 1fr);
     gap: 2rem;
     color: white;
-}
-
-.PresidentDiv {
-    align-self: center;
-    justify-self: center;
-    width: 5rem;
-    height: 5rem;
-    background-color: black;
-    border: 1px solid red;
-    cursor: pointer;
-}
-
-.PresidentDiv:hover {
-    filter: invert();
-}
-
-#Done {
-    filter: invert();
-}
-
-#Wrong {
-    background-color: red;
-}
-
-.Results {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    width: 30%;
-    height: 80%;
-    background-color: green;
 }

@@ -1,14 +1,13 @@
 import './MainMenu.css';
+import { Link } from 'react-router-dom';
 
-interface MainMenuProps {
-    setGame: (value: boolean) => void;
-}
-
-export default function MainMenu({ setGame }: MainMenuProps) {
+export default function MainMenu() {
     return (
         <div className='MainMenu'>
+
             <h1>President Guessing Game</h1>
-            <button onClick={() => setGame(true)}>Play</button>
+            <Link className='play-button' to='/play'>Play</Link>
         </div>
     );
+
 }

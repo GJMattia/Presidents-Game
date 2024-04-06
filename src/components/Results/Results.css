@@ -1,0 +1,10 @@
+.Results {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    background-color: green;
+}
