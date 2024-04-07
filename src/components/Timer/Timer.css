@@ -1,0 +1,17 @@
+.Timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    font-family: 'clock';
+    color: rgb(225, 0, 0);
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+}
+
+.Timer>h1 {
+    margin: 1rem;
+    width: 100%;
+}

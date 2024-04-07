@@ -9,9 +9,11 @@ interface Props {
     setCurrent: (value: number) => void;
     presidentsLeft: number[];
     setPresidentsLeft: (value: number[]) => void;
+    setGameStatus: (value: boolean) => void;
+
 }
 
-export default function President({ index, name, img, current, setCurrent, presidentsLeft, setPresidentsLeft }: Props) {
+export default function President({ index, name, img, current, setCurrent, presidentsLeft, setPresidentsLeft, setGameStatus }: Props) {
 
     const [flip, setflip] = useState<boolean>(false);
 
@@ -24,9 +26,11 @@ export default function President({ index, name, img, current, setCurrent, presi
 
 
     function checkPresident(event: any, index: number): void {
+        if (presidentsLeft.length === 1 && index === current) {
+            setGameStatus(false);
+        }
 
         if (index === current) {
-            console.log('correct', index + 1)
             handleClick();
             const updatedPresidents = presidentsLeft.filter(num => num !== current);
             setPresidentsLeft(updatedPresidents);
@@ -38,7 +42,6 @@ export default function President({ index, name, img, current, setCurrent, presi
             (event.target as HTMLElement).id = "Done";
         } else {
             (event.target as HTMLElement).id = "Wrong";
-            console.log('wrong', index)
         }
 
     }

@@ -3,6 +3,7 @@
     width: 8rem;
     height: 8rem;
     cursor: pointer;
+    margin: .5rem;
 }
 
 .Front,
@@ -30,6 +31,8 @@
 .Back {
     color: white;
     transform: rotateY(180deg);
+    cursor: not-allowed;
+    user-select: none;
 }
 
 .Back>img {
