@@ -5,6 +5,7 @@ import President from '../President/President';
 import { Link } from 'react-router-dom';
 import Results from '../Results/Results';
 import Spotlight from '../Spotlight/Spotlight';
+import Footer from '../Footer/Footer';
 
 
 
@@ -69,13 +70,16 @@ export default function Game() {
                         <Link className='GameBtn ReturnBtn' to='/'>Home</Link>
                         <button onClick={initGame} className='GameBtn RestartBtn'>Restart</button>
                     </div>
+
                 </div>
                 :
 
                 <Results time={time} wrong={wrong} />
 
 
+
             }
+            <Footer />
         </div>
     )
 }

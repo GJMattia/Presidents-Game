@@ -1,13 +1,19 @@
 .Results {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(18px);
+    margin-top: 1rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(10px)
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(202, 202, 202);
+    margin-bottom: 6rem;
 }
 
 .ResultTitle {
@@ -26,6 +32,7 @@
 
 
     .Results {
+        width: 90%;
         justify-content: center;
     }
 

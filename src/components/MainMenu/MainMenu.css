@@ -33,7 +33,7 @@
 
 .MenuBtn {
     width: 50%;
-    height: 15%;
+    height: 5rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -54,10 +54,12 @@
 
 .PlayBtn {
     background-color: rgba(206, 0, 0, 0.95);
+    margin: 5rem;
 }
 
 .LeaderboardBtn {
     background-color: rgba(0, 26, 255, 0.95);
+    margin-bottom: 20rem;
 }
 
 @media (max-width: 1000px) {

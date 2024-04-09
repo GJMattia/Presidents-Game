@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+    border-top: 1px solid dodgerblue;
+    box-shadow: 0 0 20px rgba(255, 255, 255);
+    animation: pulse 5s infinite;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+footer>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+footer>ul>li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+}
+
+footer>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+footer>ul>li>a:hover {
+    color: red;
+}
+
+@media (max-width: 1000px) {
+    footer>ul>li {
+        font-weight: bold;
+        font-size: .8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
