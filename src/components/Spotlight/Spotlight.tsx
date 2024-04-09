@@ -9,7 +9,7 @@ interface Props {
     setTime: (value: number) => void;
 }
 
-export default function Spotlight({ img, name, term, time, setTime }: Props) {
+export default function Spotlight({ img, name, time, setTime }: Props) {
     return (
 
         <div className='Spotlight'>
