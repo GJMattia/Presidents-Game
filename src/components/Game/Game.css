@@ -1,7 +1,11 @@
 .GameBox {
     width: 100%;
+    height: 100%;
     background-image: url('/src/assets/images/library.jpg');
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Game {
@@ -13,12 +17,13 @@
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    user-select: none;
 }
 
 .Presidents {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 85%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -38,7 +43,7 @@
     justify-content: center;
     align-items: center;
     width: 20%;
-    height: 5rem;
+    height: 3rem;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -60,4 +65,22 @@
 .RestartBtn {
     border: 0;
     background-color: rgba(0, 26, 255, 0.95);
+}
+
+@media (max-width: 1000px) {
+
+    .Presidents {
+        width: 100%;
+    }
+
+    .GameBtnBox {
+        margin-top: 1rem;
+    }
+
+    .GameBtn {
+        width: 50%;
+        height: 2rem;
+        font-size: 1rem;
+        margin: 1rem;
+    }
 }

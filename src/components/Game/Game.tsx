@@ -5,7 +5,7 @@ import President from '../President/President';
 import { Link } from 'react-router-dom';
 import Results from '../Results/Results';
 import Spotlight from '../Spotlight/Spotlight';
-import Timer from '../Timer/Timer';
+
 
 
 export default function Game() {
@@ -15,10 +15,12 @@ export default function Game() {
     const [presidentsLeft, setPresidentsLeft] = useState<number[]>(Array.from({ length: 46 }, (_, index: number) => index));
     const [current, setCurrent] = useState<number>(Math.floor(Math.random() * presidentsLeft.length));
     const [gameStatus, setGameStatus] = useState<boolean>(true);
+    const [wrong, setWrong] = useState<number>(0);
 
 
     function initGame(): void {
         setTime(0);
+        setWrong(0);
         setGameStatus(true);
         setPresidentsLeft(Array.from({ length: 46 }, (_, index: number) => index));
         setCurrent(Math.floor(Math.random() * presidentsLeft.length));
@@ -41,8 +43,9 @@ export default function Game() {
                         img={PresidentData[current].img}
                         name={PresidentData[current].name}
                         term={PresidentData[current].termSpan}
+                        time={time}
+                        setTime={setTime}
                     />
-                    <Timer time={time} setTime={setTime} gameStatus={gameStatus} />
 
                     <div className='Presidents'>
                         {PresidentData.map((_, index) => (
@@ -56,6 +59,8 @@ export default function Game() {
                                 presidentsLeft={presidentsLeft}
                                 setPresidentsLeft={setPresidentsLeft}
                                 setGameStatus={setGameStatus}
+                                wrong={wrong}
+                                setWrong={setWrong}
                             />
                         ))}
 
@@ -66,10 +71,10 @@ export default function Game() {
                     </div>
                 </div>
                 :
-                <>
-                    <Results time={time} />
-                    <button onClick={initGame} className='GameBtn RestartBtn'>Restart</button>
-                </>
+
+                <Results time={time} wrong={wrong} />
+
+
             }
         </div>
     )

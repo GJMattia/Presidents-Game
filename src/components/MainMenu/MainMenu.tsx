@@ -19,7 +19,7 @@ export default function MainMenu() {
                 </Link>
                 <Link
                     className='MenuBtn LeaderboardBtn'
-                    to='/play'
+                    to='/leaderboard'
                     onMouseEnter={() => sethover(true)}
                     onMouseLeave={() => sethover(false)}
                 >

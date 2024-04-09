@@ -6,14 +6,15 @@ interface Props {
     name: string;
     img: string;
     current: number;
-    setCurrent: (value: number) => void;
+    wrong: number;
     presidentsLeft: number[];
+    setCurrent: (value: number) => void;
     setPresidentsLeft: (value: number[]) => void;
     setGameStatus: (value: boolean) => void;
-
+    setWrong: (value: number) => void;
 }
 
-export default function President({ index, name, img, current, setCurrent, presidentsLeft, setPresidentsLeft, setGameStatus }: Props) {
+export default function President({ index, name, img, current, wrong, presidentsLeft, setPresidentsLeft, setGameStatus, setCurrent, setWrong }: Props) {
 
     const [flip, setflip] = useState<boolean>(false);
 
@@ -39,8 +40,8 @@ export default function President({ index, name, img, current, setCurrent, presi
             doneElements.forEach(element => {
                 element.removeAttribute("id");
             });
-            (event.target as HTMLElement).id = "Done";
         } else {
+            setWrong(wrong + 1);
             (event.target as HTMLElement).id = "Wrong";
         }
 

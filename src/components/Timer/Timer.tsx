@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 interface Props {
     time: number;
     setTime: (value: number) => void;
-    gameStatus: boolean;
 }
 
 export default function Timer({ time, setTime }: Props) {
@@ -21,7 +20,7 @@ export default function Timer({ time, setTime }: Props) {
 
     return (
         <div className='Timer'>
-            <h1>{time / 1000}</h1>
+            {time / 1000}
         </div>
     );
 }
