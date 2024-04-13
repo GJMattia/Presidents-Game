@@ -1,7 +1,6 @@
 import './MainMenu.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Footer from '../Footer/Footer';
 
 export default function MainMenu() {
     const [hover, sethover] = useState(false);
@@ -27,7 +26,6 @@ export default function MainMenu() {
                     Leaderboard
                 </Link>
             </div>
-            <Footer />
         </div>
     );
 }

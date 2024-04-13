@@ -1,20 +1,15 @@
 html {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   width: 100%;
-  background-color: black;
-
 }
 
 body {
   width: 100%;
-
   margin: 0;
-
 }
 
 #root {
   width: 100%;
-
 }
 
 .App {
@@ -23,7 +18,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-
 }
 
 @font-face {

@@ -1,13 +1,10 @@
 import './Game.css';
 import { useState } from 'react';
-import PresidentData from '../../assets/data/PresidentData.json';
+import PresidentData from '../../../assets/data/PresidentData.json';
 import President from '../President/President';
 import { Link } from 'react-router-dom';
 import Results from '../Results/Results';
 import Spotlight from '../Spotlight/Spotlight';
-import Footer from '../Footer/Footer';
-
-
 
 export default function Game() {
 
@@ -79,7 +76,6 @@ export default function Game() {
 
 
             }
-            <Footer />
         </div>
     )
 }

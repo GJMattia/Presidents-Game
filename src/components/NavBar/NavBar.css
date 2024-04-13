@@ -1,0 +1,13 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.Cities {
+    width: 100%;
+
+}
