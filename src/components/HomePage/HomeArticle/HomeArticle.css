@@ -17,11 +17,18 @@
     z-index: 10;
     margin-top: 0;
     padding: 2rem;
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.SlideTitle {
+    transform: translateY(0%);
+    /* Adjust the value as needed */
 }
 
 .InfoGrid {
     display: grid;
-    width: 100%;
+    width: 95%;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -32,11 +39,10 @@
 .GridItem {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 20rem;
-    background-color: lightgreen;
+    height: 30rem;
     opacity: 0;
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
     z-index: 1;
@@ -77,4 +83,58 @@
 .Slide4 {
     transform: translateY(0);
     opacity: 1;
+}
+
+.GridTitle {
+    font-size: 2.5rem;
+    color: rgb(32, 32, 32);
+}
+
+.GridP {
+    text-align: center;
+    width: 90%;
+    font-size: 1.3rem;
+    color: rgb(93, 93, 93);
+    font-style: italic;
+}
+
+.GridImage {
+    border-radius: .2rem;
+    width: 90%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.GridBtn {
+    box-sizing: border-box;
+    margin-top: 5rem;
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+    transition: transform 0.2s ease-in-out;
+    border: 0;
+}
+
+.GridBtn:hover {
+    transform: scale(1.1);
+}
+
+.PresidentBtn {
+    background-color: navy;
+}
+
+.HistoryBtn {
+    background-color: crimson;
+}
+
+@media (max-width: 1000px) {
+
+
+    .InfoGrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
 }

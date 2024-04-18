@@ -15,7 +15,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/main' element={<MainMenu />} />
+        <Route path='/presidents' element={<MainMenu />} />
         <Route path='/play' element={<Game />} />
         <Route path='/leaderboard' element={<Sauce />} />
       </Routes>

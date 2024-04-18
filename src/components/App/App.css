@@ -1,11 +1,13 @@
 html {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
   margin: 0;
+
 }
 
 #root {
