@@ -1,0 +1,80 @@
+.HomeArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.WelcomeTitle {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    font-size: 5rem;
+    z-index: 10;
+    margin-top: 0;
+    padding: 2rem;
+}
+
+.InfoGrid {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.GridItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    background-color: lightgreen;
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.GridItem1 {
+    transform: translateX(-100%);
+}
+
+.GridItem2 {
+    transform: translateX(100%);
+}
+
+.GridItem3 {
+    transform: translateY(100%);
+}
+
+.GridItem4 {
+    transform: translateY(100%);
+}
+
+
+.Slide1 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.Slide2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.Slide3 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.Slide4 {
+    transform: translateY(0);
+    opacity: 1;
+}

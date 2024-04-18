@@ -3,7 +3,7 @@ import MainMenu from '../MainMenu/MainMenu';
 import Game from '../PresidentGame/Game/Game';
 import { Routes, Route } from 'react-router-dom';
 import Sauce from '../Sauce/Sauce';
-import Home from '../Home/Home';
+import Home from '../HomePage/Home/Home';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
 
