@@ -11,8 +11,7 @@ export default function Home() {
     useEffect(() => {
         const handleScroll = () => {
             setScrollY(window.scrollY);
-            // Adjust the spade size based on the scroll position
-            setSpadeSize(100 + scrollY * 2.5); // Adjust the factor as needed
+            setSpadeSize(100 + scrollY * 2.5);
         };
 
         window.addEventListener('scroll', handleScroll);
