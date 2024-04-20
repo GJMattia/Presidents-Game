@@ -6,7 +6,8 @@ import Sauce from '../Sauce/Sauce';
 import Home from '../HomePage/Home/Home';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
-
+import History from '../History/History';
+import NavMenu from '../NavMenu/NavMenu';
 
 export default function App() {
 
@@ -15,7 +16,9 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/menu' element={<NavMenu />} />
         <Route path='/presidents' element={<MainMenu />} />
+        <Route path='history' element={<History />} />
         <Route path='/play' element={<Game />} />
         <Route path='/leaderboard' element={<Sauce />} />
       </Routes>

@@ -84,6 +84,7 @@ export default function HomeArticle() {
 
     return (
         <div className='HomeArticle'>
+            <div className='JetBuffer'></div>
             <h1 className={`WelcomeTitle ${animateTitle ? 'SlideTitle' : ''}`} ref={titleRef}>
                 WELCOME TO THE USA
             </h1>

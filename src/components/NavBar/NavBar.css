@@ -2,9 +2,58 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     color: white;
     background-color: black;
     width: 100%;
     height: 5rem;
     z-index: 10;
+    font-family: sans-serif;
+}
+
+.NavTitle {
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.NavBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background-color: transparent;
+}
+
+.NavBtn:hover {
+    cursor: pointer;
+}
+
+.NavBtn:hover .Slice {
+    border: .2rem solid red;
+}
+
+.Slice {
+    margin: .25rem;
+    width: 100%;
+    height: 0;
+    border: .2rem solid white;
+    transition: all .3s ease;
+}
+
+.Slice1 {
+    transform: translate3d(0%, 230%, 0) rotate(225deg);
+}
+
+.Slice2 {
+    opacity: 0;
+}
+
+.Slice3 {
+    transform: translate3d(0%, -230%, 0) rotate(-225deg);
 }

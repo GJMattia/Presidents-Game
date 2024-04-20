@@ -3,27 +3,27 @@ import './Home.css';
 import Cities from '../../../assets/videos/Cities2.mov';
 import HomeArticle from '../HomeArticle/HomeArticle';
 import Jets from '../../../assets/images/jets.svg';
+import Statue from '../../../assets/images/statue.jpg';
 
 export default function Home() {
-    const [scrollY, setScrollY] = useState<number>(0);
-    const [spadeSize, setSpadeSize] = useState<number>(100);
+
+    const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
             setScrollY(window.scrollY);
-            setSpadeSize(100 + scrollY * 2.5);
         };
 
         window.addEventListener('scroll', handleScroll);
 
-        // Cleanup
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [scrollY]);
+    }, []);
 
     return (
         <div className='Home'>
+            <img className='Statue' src={Statue} />
             <video className='Cities' autoPlay loop muted>
                 <source src={Cities} type='video/mp4' />
                 Your browser does not support the video tag.
@@ -31,8 +31,8 @@ export default function Home() {
             <img
                 className='Jets'
                 src={Jets}
-                alt='Spade'
-                style={{ width: `${spadeSize}px`, height: `${spadeSize}px` }}
+                alt='Jets'
+                style={{ transform: `translateY(-${scrollY}px)` }}
             />
             <HomeArticle />
         </div>
