@@ -1,30 +1,28 @@
-import { useState } from 'react';
 import './NavBar.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import NavMenu from '../NavMenu/NavMenu';
 
 export default function NavBar() {
-    const [isOpen, setIsOpen] = useState(false);
-    const navigate = useNavigate();
+    const [menu, setMenu] = useState(false);
 
     const toggleMenu = () => {
-        if (isOpen) {
-            // If the menu is open, navigate back to the previous route
-            navigate(-1);
-        } else {
-            // If the menu is closed, navigate to '/menu'
-            navigate('/menu');
-        }
-        setIsOpen(!isOpen);
+        setMenu(!menu);
+        document.documentElement.style.overflowY = menu ? 'auto' : 'hidden';
     };
 
     return (
-        <nav className='NavBar'>
-            <Link to='/' className='NavTitle'>USA WEBSITE</Link>
-            <button className='NavBtn' onClick={toggleMenu}>
-                <div className={`Slice ${isOpen ? 'Slice1' : ''}`}></div>
-                <div className={`Slice ${isOpen ? 'Slice2' : ''}`}></div>
-                <div className={`Slice ${isOpen ? 'Slice3' : ''}`}></div>
-            </button>
-        </nav>
+        <>
+            <nav className='NavBar'>
+                <Link to='/' className='NavTitle'>USA WEBSITE</Link>
+                <button className='NavBtn' onClick={toggleMenu}>
+                    <div className={`Slice ${menu ? 'Slice1' : ''}`}></div>
+                    <div className={`Slice ${menu ? 'Slice2' : ''}`}></div>
+                    <div className={`Slice ${menu ? 'Slice3' : ''}`}></div>
+                </button>
+            </nav>
+            <NavMenu menu={menu} />
+
+        </>
     );
 }

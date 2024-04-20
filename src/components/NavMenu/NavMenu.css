@@ -1,12 +1,25 @@
 .NavMenu {
+    position: fixed;
+    top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background-color: #333333;
     font-family: sans-serif;
+    z-index: 11;
+    visibility: hidden;
+    opacity: 0;
+    transition: .1s ease;
+    overflow-y: hidden;
+}
+
+.NavMenuOpen {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
 }
 
 .NavMenuItem {
@@ -15,10 +28,18 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 33%;
+    width: 30%;
     height: 90%;
     color: white;
     border-right: 1px solid white;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateY(100%);
+}
+
+.NavMenuItemOpen {
+    transform: translateX(0);
+    opacity: 1;
+
 }
 
 .NavMenuItem:nth-child(2) {
@@ -50,7 +71,8 @@
 
     .NavMenu {
         flex-direction: column;
-        height: auto;
+        justify-content: flex-start;
+        height: 90%;
     }
 
     .NavMenuItem {
@@ -62,7 +84,11 @@
         height: auto;
         color: white;
         border: none;
-        margin: 2rem;
+        margin: .5rem;
+    }
+
+    .NavList {
+        font-size: 2rem;
     }
 
 }

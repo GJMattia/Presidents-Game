@@ -1,13 +1,12 @@
 import './App.css';
-import MainMenu from '../MainMenu/MainMenu';
-import Game from '../PresidentGame/Game/Game';
+import Game from '../Presidents/Game/Game';
 import { Routes, Route } from 'react-router-dom';
 import Sauce from '../Sauce/Sauce';
 import Home from '../HomePage/Home/Home';
 import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
 import History from '../History/History';
-import NavMenu from '../NavMenu/NavMenu';
+import PresidentMenu from '../Presidents/PresidentMenu/PresidentMenu';
 
 export default function App() {
 
@@ -16,8 +15,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/menu' element={<NavMenu />} />
-        <Route path='/presidents' element={<MainMenu />} />
+        <Route path='/presidents' element={<PresidentMenu />} />
         <Route path='history' element={<History />} />
         <Route path='/play' element={<Game />} />
         <Route path='/leaderboard' element={<Sauce />} />

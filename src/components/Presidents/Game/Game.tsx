@@ -64,7 +64,7 @@ export default function Game() {
 
                     </div>
                     <div className='GameBtnBox'>
-                        <Link className='GameBtn ReturnBtn' to='/'>Home</Link>
+                        <Link className='GameBtn ReturnBtn' to='/presidents'>Home</Link>
                         <button onClick={initGame} className='GameBtn RestartBtn'>Restart</button>
                     </div>
 
