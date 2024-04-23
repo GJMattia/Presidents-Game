@@ -34,6 +34,7 @@
     border-right: 1px solid white;
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
     transform: translateY(100%);
+    user-select: none;
 }
 
 .NavMenuItemOpen {
@@ -57,14 +58,56 @@
 }
 
 .NavList {
+    font-family: 'america';
     font-size: 3rem;
     padding: 0;
     list-style: none;
+    width: 90%;
 }
 
-.NavList>li:hover {
+.NavList>li {
+    margin: 1rem;
+}
+
+.NavList>li>a {
+    position: relative;
+    transition: color 0.3s ease;
+
+    text-decoration: none;
+    color: white;
+}
+
+.NavList>li>a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.NavList>li>a:hover {
     cursor: pointer;
     color: red;
+}
+
+.NavList>li>a:hover::before {
+    background-color: red;
+    transform: scaleX(1);
+}
+
+.MenuFlag {
+    user-select: none;
+    pointer-events: none;
+    margin-top: 4rem;
+    width: 15rem;
+}
+
+.Eagle {
+    margin-top: 1rem;
 }
 
 @media (max-width: 1000px) {

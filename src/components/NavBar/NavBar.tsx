@@ -2,6 +2,7 @@ import './NavBar.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavMenu from '../NavMenu/NavMenu';
+import Flag from '../../assets/images/Flag.webp';
 
 export default function NavBar() {
     const [menu, setMenu] = useState(false);
@@ -14,7 +15,10 @@ export default function NavBar() {
     return (
         <>
             <nav className='NavBar'>
-                <Link to='/' className='NavTitle'>USA WEBSITE</Link>
+                <div className='NavFrame'>
+                    <img className='FlagIcon' src={Flag} />
+                    <Link to='/' className='NavTitle'>USA WEBSITE</Link>
+                </div>
                 <button className='NavBtn' onClick={toggleMenu}>
                     <div className={`Slice ${menu ? 'Slice1' : ''}`}></div>
                     <div className={`Slice ${menu ? 'Slice2' : ''}`}></div>

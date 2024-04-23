@@ -95,22 +95,20 @@
 }
 
 .GridTitle {
-    font-size: 2.5rem;
-    color: rgb(32, 32, 32);
+    font-weight: 900;
+    font-size: 3rem;
 }
 
 .GridP {
     text-align: center;
     width: 90%;
     font-size: 1.3rem;
-    color: rgb(93, 93, 93);
-    font-style: italic;
+    color: rgb(34, 34, 34);
 }
 
 .GridImage {
-    border-radius: .2rem;
     width: 90%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
 }
 
 .GridBtn {

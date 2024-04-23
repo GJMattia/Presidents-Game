@@ -1,5 +1,4 @@
 html {
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
@@ -30,4 +29,9 @@ body {
 @font-face {
   font-family: 'clock';
   src: url('/src/assets/fonts/clock.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'america';
+  src: url('/src/assets/fonts/america.ttf') format('truetype');
 }
